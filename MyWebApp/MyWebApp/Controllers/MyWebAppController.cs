@@ -8,9 +8,10 @@ namespace MyWebApp.Controllers
 {
     public class MyWebAppController : Controller
     {
-        public string Detail()
+        public ActionResult Detail()
         {
-            return "Hello from the controller";
+            return View();
+
         }
     }
 }
